@@ -318,7 +318,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }
 `,Q8=H(En)`
   grid-area: 1 / 1 / 2 / 4;
-  justify-content: space-between;
+  justify-content: flex-start;
   
   svg:first-child {
     width: 63.5%;
@@ -326,6 +326,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 
   svg:nth-child(2) {
     width: 15.5%;
+    margin: 0 28px;
   }
 `,K8=H(En)`
   grid-area: 2 / 2 / 3 / 4;
