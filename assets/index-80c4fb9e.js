@@ -166,6 +166,7 @@ Error generating stack: `+o.message+`
   padding: 18px 48px 23px;
   box-sizing: border-box;
   vertical-align: middle;
+  word-break: keep-all;
   border-radius: 200px;
   line-height: 24px;
   cursor: pointer;
