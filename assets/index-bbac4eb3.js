@@ -417,13 +417,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   
   svg {
     height: auto;
+    width: 100%;
   }
 `,s5=H(an)`
   grid-area: 2 / 1 / 3 / 3;
   
   svg {
-    width: 95%;
     height: auto;
+    width: 95%;
   }
 `,u5=H(an)`
   grid-area: 3 / 1 / 5 / 2;
