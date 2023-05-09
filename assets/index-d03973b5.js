@@ -289,7 +289,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   min-width: 1080px;
   overflow: hidden;
   display: flex;
-  height: 746px;
+  height: 646px;
 
   @media (max-width: ${I.mediumDesktop}) {
     height: 565px;
@@ -348,8 +348,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     width: 65%;
   }
 `,X8=H(En)`
+  align-items: flex-start;
   grid-area: 2 / 1 / 6 / 2;
+  display: flex;
   z-index: 20;
+  
+  video {
+    height: 99.5%;
+  }
 `,q8=H(En)`
   grid-area: 4 / 2 / 5 / 5;
   justify-content: space-between;
@@ -379,7 +385,6 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     position: relative;
     width: 110%;
     left: -5%;
-    bottom: -3%;
   }
 `,e5=H.div`
   position: absolute;
