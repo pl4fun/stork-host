@@ -121,9 +121,9 @@ Error generating stack: `+o.message+`
     align-items: center;
   }
 `,ef=H.div`
-  display: flex;
   align-items: center;
   flex: 0 0 auto;
+  display: flex;
 
   @media (max-width: ${I.smallDesktop}) {
     align-self: end;
@@ -131,11 +131,12 @@ Error generating stack: `+o.message+`
 
   @media (max-width: ${I.tablet}) {
     align-self: center;
+    margin-top: 32px;
   }
 
   @media (max-width: ${I.mobile}) {
-    width: 100%;
     margin-top: 16px;
+    width: 100%;
   }
 `;function Qu({width:e,height:t,fillColor:n}){return v.jsx("svg",{width:e,height:t,viewBox:"0 0 162 95",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:v.jsx("path",{d:"M129.508 55.0332L106.052 78.4898L104.362 80.1794L106.052 81.8689L113.312 89.1288L115.001 90.8183L116.691 89.1288L156.62 49.1998L158.309 47.5103L156.62 45.8207L116.691 5.89179L115.001 4.2022L113.312 5.89179L106.052 13.1516L104.362 14.8412L106.052 16.5308L129.509 39.9874L5.20263 39.9881L2.81319 39.9881L2.81321 42.3775L2.81327 52.6444L2.81328 55.0338L5.20271 55.0338L129.508 55.0332Z",fill:n,stroke:n,strokeWidth:"4.77886"})})}const tf=H.div`
   display: flex;
