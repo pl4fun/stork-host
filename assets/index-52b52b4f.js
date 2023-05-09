@@ -297,13 +297,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 `,Z8=H.div`
   grid-template-columns: repeat(4, minmax(0, 1fr));
   grid-template-rows: repeat(5, minmax(0, 1fr));
+  grid-column-gap: 4px;
   grid-auto-rows: 1fr;
-  grid-column-gap: 8px;
-  grid-row-gap: 8px;
   position: relative;
+  max-width: 1876px;
+  grid-row-gap: 4px;
   padding: 0 16px 0;
   display: grid;
-  max-width: 1876px;
 
   @media (max-width: ${I.mediumDesktop}) {
     max-width: 1376px;
@@ -409,8 +409,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-template-rows: repeat(6, minmax(0, 1fr));
   box-sizing: border-box;
-  grid-column-gap: 6px;
-  grid-row-gap: 6px;
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
   display: grid;
   height: 100%;
   width: 100%;
@@ -467,9 +467,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-template-rows: repeat(3, minmax(auto, 67px)) repeat(2, minmax(auto, 111px)) repeat(2, minmax(auto, 67px));
   box-sizing: border-box;
-  grid-column-gap: 6px;
+  grid-column-gap: 4px;
   padding: 30px 12px;
-  grid-row-gap: 6px;
+  grid-row-gap: 4px;
   overflow: hidden;
   display: grid;
 `,C5=H(sn)`
