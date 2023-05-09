@@ -394,8 +394,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     width: auto;
   }
 `,o5=H.div`
-  overflow: hidden;
+  position: relative;
   padding: 0 24px 0;
+  overflow: hidden;
   height: 53%;
 `,l5=H.div`
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -482,7 +483,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   grid-area: 7 / 1 / 8 / 3;
   
   width: 1800px;
-`;function T5(){return v.jsx("svg",{width:"72",height:"80",viewBox:"0 0 72 80",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:v.jsx("path",{d:"M36.3008 79.2706C34.7486 66.3361 31.127 57.282 25.4358 52.1082C19.7446 46.417 14.0535 43.0541 8.36227 42.0193C3.18847 40.9846 0.601562 40.4672 0.601562 40.4672C0.601562 40.4672 3.18847 39.9498 8.36227 38.915C14.0535 37.3629 19.7446 34 25.4358 28.8262C31.127 23.135 34.7486 13.8222 36.3008 0.887695C38.3703 13.8222 42.2506 23.135 47.9418 28.8262C53.633 34 59.0655 37.3629 64.2393 38.915C69.4131 39.9498 72 40.4672 72 40.4672C72 40.4672 69.4131 40.9846 64.2393 42.0193C59.0655 43.0541 53.633 46.417 47.9418 52.1082C42.2506 57.282 38.3703 66.3361 36.3008 79.2706Z",fill:"#030303"})})}function _5(){return v.jsxs(w5,{children:[v.jsx(C5,{children:v.jsx(Es,{})}),v.jsx(x5,{children:v.jsx(ys,{})}),v.jsx(S5,{children:v.jsx(xs,{})}),v.jsx(k5,{children:v.jsx(nr,{source:Ss})}),v.jsx(E5,{children:v.jsx(nr,{source:ks})}),v.jsxs(L5,{children:[v.jsx(hs,{}),v.jsx(Cs,{})]}),v.jsxs(M5,{children:[v.jsx(ws,{}),v.jsx(vs,{})]}),v.jsxs(P5,{children:[v.jsx(T5,{}),v.jsx(gs,{})]})]})}function H5(){return v.jsxs(v.Fragment,{children:[!qr&&v.jsx($8,{children:v.jsxs(Z8,{children:[v.jsxs(Q8,{children:[v.jsx(Es,{}),v.jsx(hs,{}),v.jsx(Cs,{})]}),v.jsx(K8,{children:v.jsx(ys,{})}),v.jsx(Y8,{children:v.jsx(nr,{source:ks})}),v.jsxs(G8,{children:[v.jsx(n5,{children:v.jsx(r5,{})}),v.jsx(xs,{})]}),v.jsx(X8,{children:v.jsx(nr,{source:Ss})}),v.jsxs(q8,{children:[v.jsx(t5,{}),v.jsx(ws,{}),v.jsx(vs,{})]}),v.jsx(J8,{children:v.jsx(gs,{})}),v.jsx(e5,{children:v.jsx(E2,{})})]})}),M8&&v.jsx(y5,{}),qr&&v.jsx(_5,{})]})}const V5=H.div`
+`;function T5(){return v.jsx("svg",{width:"72",height:"80",viewBox:"0 0 72 80",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:v.jsx("path",{d:"M36.3008 79.2706C34.7486 66.3361 31.127 57.282 25.4358 52.1082C19.7446 46.417 14.0535 43.0541 8.36227 42.0193C3.18847 40.9846 0.601562 40.4672 0.601562 40.4672C0.601562 40.4672 3.18847 39.9498 8.36227 38.915C14.0535 37.3629 19.7446 34 25.4358 28.8262C31.127 23.135 34.7486 13.8222 36.3008 0.887695C38.3703 13.8222 42.2506 23.135 47.9418 28.8262C53.633 34 59.0655 37.3629 64.2393 38.915C69.4131 39.9498 72 40.4672 72 40.4672C72 40.4672 69.4131 40.9846 64.2393 42.0193C59.0655 43.0541 53.633 46.417 47.9418 52.1082C42.2506 57.282 38.3703 66.3361 36.3008 79.2706Z",fill:"#030303"})})}function _5(){return v.jsxs(w5,{children:[v.jsx(C5,{children:v.jsx(Es,{})}),v.jsx(x5,{children:v.jsx(ys,{})}),v.jsx(S5,{children:v.jsx(xs,{})}),v.jsx(k5,{children:v.jsx(nr,{source:Ss})}),v.jsx(E5,{children:v.jsx(nr,{source:ks})}),v.jsxs(L5,{children:[v.jsx(hs,{}),v.jsx(Cs,{})]}),v.jsxs(M5,{children:[v.jsx(ws,{}),v.jsx(vs,{})]}),v.jsxs(P5,{children:[v.jsx(T5,{}),v.jsx(gs,{})]})]})}function H5(){const e=M8&&window.innerWidth>=500;return v.jsxs(v.Fragment,{children:[!qr&&v.jsx($8,{children:v.jsxs(Z8,{children:[v.jsxs(Q8,{children:[v.jsx(Es,{}),v.jsx(hs,{}),v.jsx(Cs,{})]}),v.jsx(K8,{children:v.jsx(ys,{})}),v.jsx(Y8,{children:v.jsx(nr,{source:ks})}),v.jsxs(G8,{children:[v.jsx(n5,{children:v.jsx(r5,{})}),v.jsx(xs,{})]}),v.jsx(X8,{children:v.jsx(nr,{source:Ss})}),v.jsxs(q8,{children:[v.jsx(t5,{}),v.jsx(ws,{}),v.jsx(vs,{})]}),v.jsx(J8,{children:v.jsx(gs,{})}),v.jsx(e5,{children:v.jsx(E2,{})})]})}),e&&v.jsx(y5,{}),qr&&!e&&v.jsx(_5,{})]})}const V5=H.div`
   justify-content: space-between;
   flex-direction: column;
   //overflow: hidden;
