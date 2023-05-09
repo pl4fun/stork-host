@@ -199,7 +199,7 @@ Error generating stack: `+o.message+`
   @media (max-width: ${I.mobile}) {
     padding: 12px 12px 12px;
     justify-content: center;
-    font-size: 16px;
+    font-size: 18px;
     display: flex;
     width: 100%;
   }
