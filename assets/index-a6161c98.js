@@ -284,13 +284,16 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   max-height: 746px;
   overflow: hidden;
   display: flex;
+  min-width: 1080px;
   height: 70%;
 
   @media (max-width: ${I.mediumDesktop}) {
+    min-width: 970px;
     height: 55%;
   }
 
   @media (max-width: ${I.smallDesktop}) {
+    min-height: 780px;
     height: 53%;
   }
 `,Z8=H.div`
@@ -497,6 +500,19 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   flex-direction: column;
   display: flex;
   width: 100vw;
+  min-height: 1080px;
+
+  @media (max-width: ${I.mediumDesktop}) {
+    min-height: 962px;
+  }
+
+  @media (max-width: ${I.smallDesktop}) {
+    min-height: 780px;
+  }
+
+  @media (max-width: ${I.tablet}) {
+    min-height: 1024px;
+  }
 
   @media (min-width: ${I.mobile}) {
     height: 100vh;
