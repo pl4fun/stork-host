@@ -281,20 +281,17 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }
 `,$8=H.div`
   justify-content: center;
-  max-height: 746px;
+  min-width: 1080px;
   overflow: hidden;
   display: flex;
-  min-width: 1080px;
-  height: 70%;
+  height: 746px;
 
   @media (max-width: ${I.mediumDesktop}) {
-    min-width: 970px;
-    height: 55%;
+    height: 565px;
   }
 
   @media (max-width: ${I.smallDesktop}) {
-    min-height: 780px;
-    height: 53%;
+    height: 430px;
   }
 `,Z8=H.div`
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -498,9 +495,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 `;function T5(){return v.jsx("svg",{width:"72",height:"80",viewBox:"0 0 72 80",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:v.jsx("path",{d:"M36.3008 79.2706C34.7486 66.3361 31.127 57.282 25.4358 52.1082C19.7446 46.417 14.0535 43.0541 8.36227 42.0193C3.18847 40.9846 0.601562 40.4672 0.601562 40.4672C0.601562 40.4672 3.18847 39.9498 8.36227 38.915C14.0535 37.3629 19.7446 34 25.4358 28.8262C31.127 23.135 34.7486 13.8222 36.3008 0.887695C38.3703 13.8222 42.2506 23.135 47.9418 28.8262C53.633 34 59.0655 37.3629 64.2393 38.915C69.4131 39.9498 72 40.4672 72 40.4672C72 40.4672 69.4131 40.9846 64.2393 42.0193C59.0655 43.0541 53.633 46.417 47.9418 52.1082C42.2506 57.282 38.3703 66.3361 36.3008 79.2706Z",fill:"#030303"})})}function _5(){return v.jsxs("svg",{viewBox:"0 0 96 95",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:[v.jsx("path",{d:"M74.0017 28.0625L58.7856 35.5731L74.0017 43.0836L67.369 54.5933L53.3233 45.132L54.3963 62.1039H41.1309L42.3014 45.132L28.1581 54.5933L21.5254 43.0836L36.8391 35.5731L21.5254 28.0625L28.1581 16.5528L42.2038 26.0142L41.1309 9.04229H54.3963L53.3233 26.0142L67.369 16.5528L74.0017 28.0625Z",fill:"#20201E"}),v.jsx("rect",{x:"0.898438",y:"85.7588",width:"94.5",height:"8.57405",fill:"#20201E"})]})}function H5(){return v.jsxs("svg",{viewBox:"0 0 109 109",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:[v.jsx("path",{d:"M54.6154 108.046C24.9511 108.046 0.835938 83.9303 0.835938 54.266C0.835938 24.6017 24.9511 0.457031 54.6154 0.457031C84.2797 0.457031 108.395 24.5722 108.395 54.2365C108.395 83.9008 84.2797 108.046 54.6154 108.046ZM54.6154 6.53748C28.316 6.53748 6.91638 27.9371 6.91638 54.2365C6.91638 80.5359 28.316 101.936 54.6154 101.936C80.9148 101.936 102.314 80.5359 102.314 54.2365C102.314 27.9371 80.9148 6.53748 54.6154 6.53748Z",fill:"#0F0F0F"}),v.jsx("path",{d:"M57.6622 3.49683H51.5818V104.975H57.6622V3.49683Z",fill:"#0F0F0F"}),v.jsx("path",{d:"M54.6163 108.046C38.6772 108.046 26.1917 84.4321 26.1917 54.266C26.1917 24.0999 38.6772 0.457031 54.6163 0.457031C70.5553 0.457031 83.0409 24.0704 83.0409 54.2365C83.0409 84.4026 70.5553 108.046 54.6163 108.046ZM54.6163 6.53748C43.8427 6.53748 32.3016 25.6938 32.3016 54.2365C32.3016 82.7792 43.8427 101.936 54.6163 101.936C65.3899 101.936 76.9309 82.7792 76.9309 54.2365C76.9309 25.6938 65.4194 6.53748 54.6163 6.53748Z",fill:"#0F0F0F"}),v.jsx("path",{d:"M105.35 51.1975H3.87134V57.278H105.35V51.1975Z",fill:"#0F0F0F"})]})}function V5(){return v.jsx("svg",{viewBox:"0 0 67 66",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:v.jsx("path",{d:"M47.5006 11.9867L48.9185 10.5687H46.9133H5.0889V0.983936H65.2807V61.1758H55.6959V19.3515V17.3462L54.278 18.7641L8.23436 64.8078L1.4569 58.0304L47.5006 11.9867Z",fill:"#20201E",stroke:"#20201E","stroke-width":"1.66123"})})}function j5(){return v.jsxs(w5,{children:[v.jsx(C5,{children:v.jsx(xs,{})}),v.jsx(x5,{children:v.jsx(vs,{})}),v.jsx(S5,{children:v.jsx(ys,{})}),v.jsx(k5,{children:v.jsx(tr,{source:ws})}),v.jsx(E5,{children:v.jsx(tr,{source:Cs})}),v.jsxs(L5,{children:[v.jsx(_5,{}),v.jsx(H5,{})]}),v.jsxs(M5,{children:[v.jsx(gs,{}),v.jsx(V5,{})]}),v.jsxs(P5,{children:[v.jsx(T5,{}),v.jsx(ms,{})]})]})}function O5(){const e=M8&&window.innerWidth>=500;return v.jsxs(v.Fragment,{children:[!qr&&v.jsx($8,{children:v.jsxs(Z8,{children:[v.jsxs(Q8,{children:[v.jsx(xs,{}),v.jsx(x2,{}),v.jsx(E2,{})]}),v.jsx(K8,{children:v.jsx(vs,{})}),v.jsx(Y8,{children:v.jsx(tr,{source:Cs})}),v.jsxs(G8,{children:[v.jsx(t5,{children:v.jsx(r5,{})}),v.jsx(ys,{})]}),v.jsx(X8,{children:v.jsx(tr,{source:ws})}),v.jsxs(q8,{children:[v.jsx(n5,{}),v.jsx(gs,{}),v.jsx(S2,{})]}),v.jsx(J8,{children:v.jsx(ms,{})}),v.jsx(e5,{children:v.jsx(k2,{})})]})}),e&&v.jsx(y5,{}),qr&&!e&&v.jsx(j5,{})]})}const N5=H.div`
   justify-content: space-between;
   flex-direction: column;
+  min-height: 1080px;
   display: flex;
   width: 100vw;
-  min-height: 1080px;
 
   @media (max-width: ${I.mediumDesktop}) {
     min-height: 962px;
