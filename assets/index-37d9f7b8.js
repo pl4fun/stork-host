@@ -461,7 +461,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   grid-column-gap: 6px;
   grid-auto-rows: 1fr;
   grid-row-gap: 6px;
-  padding: 0 12px 0;
+  padding: 30px 12px;
   overflow: hidden;
   display: grid;
   height: 60%;
