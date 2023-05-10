@@ -690,20 +690,20 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   min-height: 100vh;
   display: flex;
   width: 100vw;
-  //
-  // @media (max-width: ${H.mediumDesktop}) {
-  //   min-height: 962px;
-  // }
-  //
-  // @media (max-width: ${H.smallDesktop}) {
-  //   min-height: 680px;
-  // }
-  //
-  // @media (max-width: ${H.tablet}) {
-  //   min-height: 1024px;
-  // }
-  //
-  // @media (min-width: ${H.smallDesktop}) {
-  //   min-height: 100vh;
-  // }
+
+  @media (max-width: ${H.mediumDesktop}) {
+    min-height: 962px;
+  }
+
+  @media (max-width: ${H.smallDesktop}) {
+    min-height: 680px;
+  }
+
+  @media (max-width: ${H.tablet}) {
+    min-height: 1024px;
+  }
+
+  @media (min-width: ${H.smallDesktop}) {
+    min-height: 100vh;
+  }
 `;function Q5(){return f.jsxs(Z5,{children:[f.jsx(t5,{}),f.jsx(W5,{}),f.jsx(R8,{})]})}gl.createRoot(document.getElementById("root")).render(f.jsx(d1.StrictMode,{children:f.jsx(Q5,{})}));
