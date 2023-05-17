@@ -557,7 +557,7 @@ Error generating stack: `+l.message+`
   display: flex;
   object-fit: contain;
   align-items: flex-end;
-  
+
   svg {
     height: 100%;
     width: auto;
@@ -593,16 +593,16 @@ Error generating stack: `+l.message+`
     width: 15.5%;
     margin: 0 28px;
   }
-  
+
   #AstrixIcon {
     transition: 1s;
   }
-  
+
   &:hover #AstrixIcon {
     transform: translateX(-30%);
     transform-origin: left;
   }
-  
+
   &:hover .PlanetIconRed:first-of-type {
     transform: translateX(-100%);
   }
@@ -642,7 +642,7 @@ Error generating stack: `+l.message+`
   justify-content: flex-start;
   grid-area: 3 / 2 / 4 / 5;
   width: 92%;
-  
+
   #Luxury {
     transition: 1s;
     width: 65%;
@@ -665,7 +665,7 @@ Error generating stack: `+l.message+`
   grid-area: 2 / 1 / 6 / 2;
   display: flex;
   z-index: 20;
-  
+
   video {
     height: 99.5%;
   }
@@ -755,14 +755,15 @@ Error generating stack: `+l.message+`
   display: flex;
   height: 85%;
   width: 33%;
-  
+
   svg {
     height: 72%;
   }
 `;H.div`
-    video {
-      clip-path: url(#WorldsPathClip);
-    }
+  video {
+    clip-path: url(#WorldsPathClip);
+    -webkit-clip-path: url(#WorldsPathClip);
+  }
 `;const xc=H.div`
   position: relative;
   display: block;
@@ -789,7 +790,7 @@ Error generating stack: `+l.message+`
   svg {
     transition: 1s;
   }
-  
+
   #DiagonalArrowIcon:first-of-type {
     position: absolute;
     transition: 1s;
@@ -819,10 +820,12 @@ Error generating stack: `+l.message+`
 
   &.worldsClipPath video, &.worldsClipPath img {
     clip-path: url(#WorldsMask);
+    -webkit-clip-path: url(#WorldsMask);
   }
 
   &.warehouseClipPath video, &.warehouseClipPath img {
     clip-path: url(#WarehouseMask);
+    -webkit-clip-path: url(#WarehouseMask);
   }
 
   svg {
