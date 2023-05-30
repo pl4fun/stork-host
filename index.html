@@ -31,7 +31,7 @@
 
         .PreloaderRemoved {
             opacity: 0 !important;
-            transition: 1s;
+            transition: 0.7s;
             overflow: hidden;
         }
 
@@ -74,12 +74,12 @@
             setTimeout(function () {
                 preloader.classList.add("PreloaderRemoved");
                 body.classList.remove("PreloadedBody");
+                window.removeEventListener("load", handleLoading);
 
                 setTimeout(() => {
                     preloader.remove();
-                    window.removeEventListener("load", handleLoading);
-                }, 1)
-            }, 5500);
+                }, 2100)
+            }, 3000);
         }
 
         window.addEventListener("load", handleLoading);
