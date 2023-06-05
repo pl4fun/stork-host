@@ -31,7 +31,7 @@
 
         .PreloaderRemoved {
             opacity: 0 !important;
-            transition: 0.7s;
+            transition: 0.1s;
             overflow: hidden;
         }
 
@@ -55,7 +55,7 @@
         }
 
         #preloadLine {
-            animation: preload 3s ease-in-out infinite;
+            animation: preload 1s ease-in-out infinite;
             transform: translate(-50%, -50%);
             stroke-dashoffset: 1500;
             stroke-dasharray: 1500;
@@ -78,13 +78,13 @@
 
                 setTimeout(() => {
                     preloader.remove();
-                }, 2100)
-            }, 3000);
+                }, 0)
+            }, 1000);
         }
 
         window.addEventListener("load", handleLoading);
     </script>
-  <script type="module" crossorigin src="./assets/index-a2ded3bd.js"></script>
+  <script type="module" crossorigin src="./assets/index-9ddbb777.js"></script>
   <link rel="stylesheet" href="./assets/index-0632ec54.css">
 </head>
 <body id="Body" class="PreloadedBody">
