@@ -432,6 +432,7 @@ Error generating stack: `+o.message+`
   }
 `,k4=Y.a`
   border-bottom: 2px solid ${we.dark};
+  justify-self: flex-end;
   padding-bottom: 6px;
   cursor: pointer;
   transition: 4s;
