@@ -454,7 +454,7 @@ Error generating stack: `+o.message+`
   }
   
   svg {
-    width: 100%;
+    width: fit-content;
     height: auto;
   }
 
