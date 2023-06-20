@@ -456,7 +456,7 @@ Error generating stack: `+o.message+`
   svg {
     flex-grow: 0;
     height: auto;
-    width: 100%;
+    width: auto;
   }
 
   @media (min-width: ${te.tablet}) {
