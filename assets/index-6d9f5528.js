@@ -401,6 +401,7 @@ Error generating stack: `+o.message+`
   align-items: center;
 `,x4=Y.div`
   justify-content: flex-end;
+  justify-self: flex-end;
   align-items: center;
   display: flex;
 
@@ -432,7 +433,6 @@ Error generating stack: `+o.message+`
   }
 `,k4=Y.a`
   border-bottom: 2px solid ${we.dark};
-  justify-self: flex-end;
   padding-bottom: 6px;
   cursor: pointer;
   transition: 4s;
