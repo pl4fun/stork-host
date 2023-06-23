@@ -645,9 +645,9 @@ Error generating stack: `+o.message+`
   overflow: hidden;
   display: flex;
 
-  // @media (max-width: ${ne.mediumDesktop}) {
+  @media (max-width: ${ne.mediumDesktop}) {
     margin: 64px 0;
-  //}
+  }
 `,V4=Y.div`
   grid-template-columns: repeat(4, minmax(0, 1fr));
   grid-template-rows: repeat(5, minmax(0, 1fr));
@@ -659,6 +659,7 @@ Error generating stack: `+o.message+`
   padding: 0 16px 0;
   margin: 25px 0;
   display: grid;
+  height: 100%;
 `,j4=Y(Gn)`
   grid-area: 1 / 1 / 2 / 4;
   justify-content: flex-start;
@@ -742,9 +743,9 @@ Error generating stack: `+o.message+`
     top: 0;
   }
 
-  //@media (max-width: ${ne.smallDesktop}) {
+  @media (max-width: ${ne.smallDesktop}) {
     width: 99%;
-  //}
+  }
 `,N4=Y(Gn)`
   align-items: flex-start;
   grid-area: 2 / 1 / 6 / 2;
@@ -813,17 +814,17 @@ Error generating stack: `+o.message+`
     left: 0;
   }
 
-  //@media (max-width: ${ne.smallDesktop}) {
+  @media (max-width: ${ne.smallDesktop}) {
     width: 95%;
-  //}
+  }
 `,B4=Y(Gn)`
   grid-area: 5 / 2 / 6 / 5;
   width: 93.5%;
   z-index: 10;
 
-  //@media (max-width: ${ne.smallDesktop}) {
+  @media (max-width: ${ne.smallDesktop}) {
     width: 100%;
-  //}
+  }
 `,O4=Y.div`
   position: absolute;
   z-index: 20;
