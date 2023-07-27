@@ -874,10 +874,12 @@ Error generating stack: `+o.message+`
 
 
   @media (min-width: ${b.xlDesktop}) {
+    margin: 74px 0;
     padding: 0 3% 0;
   }
 
   @media (min-width: ${b.xxlDesktop}) {
+    margin: 82px 0;
     padding: 0 3.5% 0;
   }
 `,T4=Q(Gn)`
